@@ -1,7 +1,7 @@
 import '../Header/Header.css'
 import langIcon from '../../icons/language.svg'
 import logo from '../../images/logo.jpg'
-import { Container, Nav, Navbar, NavDropdown } from 'react-bootstrap';
+import { Container, Nav, Navbar } from 'react-bootstrap';
 
 const Header = () => {
     return (
