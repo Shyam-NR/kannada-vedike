@@ -1,48 +1,71 @@
-.header {
-    justify-content: space-between;
-    align-items: center;
-    background-color: var(--yellow-first-shade);
-    padding: 0 0.5rem;
-    margin-bottom: 70px;
-    z-index: 10;
+#logo {
+  position: absolute;
+  top: 18px;
+  z-index: 90;
+  border-radius: 100%;
 }
 
+.header {
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--yellow-first-shade);
+  padding: 0 0.5rem;
+  margin-bottom: 70px;
+  z-index: 10;
+  /* position: relative; */
+}
 #language {
-    font-weight: 500;
-    font-size: 1rem;
+  font-weight: 500;
+  font-size: 1rem;
 }
 
 .navbar {
-    height: 70px;
-    position: absolute !important;
-    width: 100%;
-    top: 40px;
-    z-index: 50;
-    transition: none;
-    background-color: var(--black-clr);
+  height: 70px;
+  position: absolute !important;
+  width: 100%;
+  top: 40px;
+  z-index: 50;
+  transition: none;
+  background-color: var(--black-clr);
 }
 
-#logo {
-    position: absolute;
-    top: 18px;
-    z-index: 90;
-    border-radius: 100%;
-    margin-top: 2px;
+.scroll {
+  position: fixed !important;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.8) !important;
 }
 
-.nav-link{
-    text-transform: uppercase;
-    letter-spacing: 1.5px;
-    padding: 7.5px 16px !important;
-    margin-right: 3px;
-    font-size: 13px !important;
-    border-radius: 7px;
-    transition: 0.75s !important;
-    color: var(--white-clr) !important;
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+  color: var(--white-clr);
 }
 
+.nav-link {
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  padding: 7.5px 16px !important;
+  margin-right: 3px;
+  font-size: 13px !important;
+  color: var(--white-clr) !important;
+  border-radius: 7px;
+  transition: 0.75s;
+}
 
 .nav-link:hover,
 .nav-link:focus {
-    color: rgba(255, 255, 255, 0.7) !important;
+  color: rgba(255, 255, 255, 0.7) !important;
+}
+
+.dropdown-menu {
+  top: 51px;
+  background-color: rgba(13, 24, 38, 0.98);
+}
+.dropdown-item {
+  text-transform: uppercase;
+  color: var(--white-clr);
+  font-size: 13px;
+}
+.dropdown-item:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: var(--white-clr);
 }
