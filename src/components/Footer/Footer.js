@@ -11,8 +11,8 @@ const Footer = () => {
     return (
         <div id="footer">
             <footer className="footer notranslate">
-                <Container>
-                    <Row>
+                <div className="container">
+                    <div className="row">
                         <div className="footer-col first">
                             <div className="flex">
                                 <img
@@ -85,8 +85,8 @@ const Footer = () => {
                                 </Link>
                             </div>
                         </div>
-                    </Row>
-                </Container>
+                    </div>
+                </div>
             </footer>
             <div id="lstFooter" className="flex notranslate">
                 <span style={{ color: "#afafaf" }}>
