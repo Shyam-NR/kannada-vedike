@@ -1,7 +1,8 @@
 import '../Header/Header.css'
 import langIcon from '../../icons/language.svg'
 import logo from '../../images/logo.jpg'
-import { Container, Nav, Navbar } from 'react-bootstrap';
+import { Container, Nav, Navbar } from 'react-bootstrap'
+import {Link} from 'react-router-dom'
 
 const Header = () => {
     return (
@@ -31,11 +32,11 @@ const Header = () => {
                             style={{ maxHeight: '100px' }}
                             navbarScroll
                         >
-                            <Nav.Link href="#">Home</Nav.Link>
-                            <Nav.Link href="#about">About</Nav.Link>
-                            <Nav.Link href="/events">Events</Nav.Link>
-                            <Nav.Link href="/social">Social Activities</Nav.Link>
-                            <Nav.Link href="/alumni">Alumni</Nav.Link>
+                            <Link className="nav-link" to="/">Home</Link>
+                            <Link className="nav-link" to="/#about">About</Link>
+                            <Link className="nav-link" to="/events">Events</Link>
+                            <Link className="nav-link" to="/social">Social Activities</Link>
+                            <Link className="nav-link" to="/alumni">Alumni</Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>

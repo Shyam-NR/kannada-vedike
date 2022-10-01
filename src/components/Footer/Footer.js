@@ -5,13 +5,14 @@ import facebookIcon from '../../icons/facebook.svg'
 import instaIcon from '../../icons/insta.svg'
 import twitterIcon from '../../icons/twitter.svg'
 import { Container, Row, Col } from 'react-bootstrap';
+import {Link} from 'react-router-dom'
 
 const Footer = () => {
     return (
         <div id="footer">
             <footer className="footer notranslate">
-                <div className="container">
-                    <div className="row">
+                <Container>
+                    <Row>
                         <div className="footer-col first">
                             <div className="flex">
                                 <img
@@ -40,9 +41,9 @@ const Footer = () => {
                                     <p>
                                         <span className="white-txt"> 8989898989</span>
                                         <br />{" "}
-                                        <a className="white-txt" href="mailto:kannadavedike@nitk.ac.in">
+                                        <Link className="white-txt" to="mailto:kannadavedike@nitk.ac.in">
                                             kannadavedike@nitk.ac.in
-                                        </a>
+                                        </Link>
                                     </p>
                                 </li>
                             </ul>
@@ -51,41 +52,41 @@ const Footer = () => {
                             <h4>Quick Links</h4>
                             <ul>
                                 <li>
-                                    <a href="index.html">Home</a>
+                                    <Link to="/">Home</Link>
                                 </li>
                                 <li>
-                                    <a href="index.html#about">About us</a>
+                                    <Link to="/#about">About us</Link>
                                 </li>
                                 <li>
-                                    <a href="events.html">Events</a>
+                                    <Link to="/events">Events</Link>
                                 </li>
                                 <li>
-                                    <a href="social.html">Social Activities</a>
+                                    <Link to="/social">Social Activities</Link>
                                 </li>
                                 <li>
-                                    <a href="#">alumni</a>
+                                    <Link to="/alumni">Alumni</Link>
                                 </li>
                             </ul>
                         </div>
                         <div className="footer-col">
                             <h4>follow us</h4>
                             <div className="social-links">
-                                <a href="https://m.facebook.com/kannadavedikenitk/" target="_blank">
+                                <Link to="https://m.facebook.com/kannadavedikenitk/" target="_blank">
                                     <img src={facebookIcon} alt="" height={40} width={40} />
-                                </a>
-                                <a
-                                    href="https://www.instagram.com/kannadavedike_nitk/"
+                                </Link>
+                                <Link
+                                    to="https://www.instagram.com/kannadavedike_nitk/"
                                     target="_blank"
                                 >
                                     <img src={instaIcon} alt="" height={40} width={40} />
-                                </a>
-                                <a href="https://twitter.com/kv_nitk" target="_blank">
+                                </Link>
+                                <Link to="https://twitter.com/kv_nitk" target="_blank">
                                     <img src={twitterIcon} alt="" height={40} width={40} />
-                                </a>
+                                </Link>
                             </div>
                         </div>
-                    </div>
-                </div>
+                    </Row>
+                </Container>
             </footer>
             <div id="lstFooter" className="flex notranslate">
                 <span style={{ color: "#afafaf" }}>
@@ -93,9 +94,9 @@ const Footer = () => {
                 </span>
                 <span style={{ color: "#afafaf" }}>
                     Made with ❤️ by
-                    <a href="https://github.com/SaikiranPatil" target="_blank">
+                    <Link to="https://github.com/SaikiranPatil" target="_blank">
                         KV Web Team
-                    </a>
+                    </Link>
                 </span>
             </div>
         </div>
