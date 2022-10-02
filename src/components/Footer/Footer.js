@@ -4,15 +4,15 @@ import '../Footer/Footer.css'
 import facebookIcon from '../../icons/facebook.svg'
 import instaIcon from '../../icons/insta.svg'
 import twitterIcon from '../../icons/twitter.svg'
-import { Container, Row, Col } from 'react-bootstrap';
-import {Link} from 'react-router-dom'
+import { Container, Row } from 'react-bootstrap';
+import { Link } from 'react-router-dom'
 
 const Footer = () => {
     return (
         <div id="footer">
             <footer className="footer notranslate">
-                <div className="container">
-                    <div className="row">
+                <Container>
+                    <Row>
                         <div className="footer-col first">
                             <div className="flex">
                                 <img
@@ -85,8 +85,8 @@ const Footer = () => {
                                 </Link>
                             </div>
                         </div>
-                    </div>
-                </div>
+                    </Row>
+                </Container>
             </footer>
             <div id="lstFooter" className="flex notranslate">
                 <span style={{ color: "#afafaf" }}>

@@ -3,9 +3,22 @@ import '../Header/Header.css'
 import langIcon from '../../icons/language.svg'
 import logo from '../../images/logo.jpg'
 import { Container, Nav, Navbar } from 'react-bootstrap'
-import {Link} from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 const Header = () => {
+
+    useEffect(() => {
+        window.addEventListener("scroll", (e) => {
+            var navbar = document.getElementsByTagName("nav")[0];
+            var scrollTop = (window.pageYOffset !== undefined) ? window.pageYOffset : (document.documentElement || document.body.parentNode || document.body).scrollTop;
+            if (scrollTop >= 40) {
+                navbar.classList.add("scroll");
+            } else {
+                navbar.classList.remove("scroll");
+            }
+        })
+    }, [])
+
     return (
         <>
             <Container fluid md={3} className="header flex px-3">
