@@ -41,9 +41,9 @@ const Footer = () => {
                                     <p>
                                         <span className="white-txt"> 8989898989</span>
                                         <br />{" "}
-                                        <Link className="white-txt" to="mailto:kannadavedike@nitk.ac.in">
+                                        <a className="white-txt" href="mailto:kannadavedike@nitk.ac.in">
                                             kannadavedike@nitk.ac.in
-                                        </Link>
+                                        </a>
                                     </p>
                                 </li>
                             </ul>
@@ -71,18 +71,18 @@ const Footer = () => {
                         <div className="footer-col">
                             <h4>follow us</h4>
                             <div className="social-links">
-                                <Link to="https://m.facebook.com/kannadavedikenitk/" target="_blank">
+                                <a href="https://m.facebook.com/kannadavedikenitk/" target="_blank">
                                     <img src={facebookIcon} alt="" height={40} width={40} />
-                                </Link>
-                                <Link
-                                    to="https://www.instagram.com/kannadavedike_nitk/"
+                                </a>
+                                <a
+                                    href="https://www.instagram.com/kannadavedike_nitk/"
                                     target="_blank"
                                 >
                                     <img src={instaIcon} alt="" height={40} width={40} />
-                                </Link>
-                                <Link to="https://twitter.com/kv_nitk" target="_blank">
+                                </a>
+                                <a href="https://twitter.com/kv_nitk" target="_blank">
                                     <img src={twitterIcon} alt="" height={40} width={40} />
-                                </Link>
+                                </a>
                             </div>
                         </div>
                     </Row>
@@ -93,10 +93,10 @@ const Footer = () => {
                     Copyright All Rights Reserved 2021, Kannada Vedike
                 </span>
                 <span style={{ color: "#afafaf" }}>
-                    Made with ❤️ by
-                    <Link to="https://github.com/SaikiranPatil" target="_blank">
+                    Made with ❤️ by{" "}
+                    <a href="https://github.com/KV-NITK" target="_blank">
                         KV Web Team
-                    </Link>
+                    </a>
                 </span>
             </div>
         </div>
