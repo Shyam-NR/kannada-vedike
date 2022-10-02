@@ -1,3 +1,4 @@
+import React, { useEffect } from 'react';
 import '../Header/Header.css'
 import langIcon from '../../icons/language.svg'
 import logo from '../../images/logo.jpg'
@@ -16,7 +17,7 @@ const Header = () => {
                 </div>
                 <div className="support me-5 py-2 px-4 red-bg white-txt"><a href="#">Support Us</a></div>
             </Container>
-            <Navbar bg="dark" expand="lg" variant="dark">
+            <Navbar expand="lg" variant="dark">
                 <Container fluid>
                     <Link to="/"> <img
                         id="logo"
