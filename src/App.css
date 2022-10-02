@@ -14,6 +14,10 @@
   --yellow-second-shade: #f2b33d;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 figcaption ::-webkit-scrollbar {
   width: 5px;
 }

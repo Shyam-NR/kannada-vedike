@@ -18,13 +18,13 @@ const Header = () => {
             </Container>
             <Navbar bg="dark" expand="lg" variant="dark">
                 <Container fluid>
-                    <Navbar.Brand href="/"> <img
+                    <Link to="/"> <img
                         id="logo"
                         src={logo}
                         alt=""
                         width="100"
                         height="100"
-                    /></Navbar.Brand>
+                    /></Link>
                     <Navbar.Toggle aria-controls="navbarScroll" />
                     <Navbar.Collapse id="navbarScroll">
                         <Nav
@@ -33,7 +33,7 @@ const Header = () => {
                             navbarScroll
                         >
                             <Link className="nav-link" to="/">Home</Link>
-                            <Link className="nav-link" to="/#about">About</Link>
+                            <Link className="nav-link" to="/#about">About Us</Link>
                             <Link className="nav-link" to="/events">Events</Link>
                             <Link className="nav-link" to="/social">Social Activities</Link>
                             <Link className="nav-link" to="/alumni">Alumni</Link>
