@@ -30,9 +30,9 @@ const eventsList =
 
 const Social = () => {
     return (
-        <div>
-            <h2 className="text-center font-weight-bold primary-text-clr title pt-5"> Events</h2>
-            <div id="eventsContainer">
+        <div className="page">
+            <h2 className="text-center font-weight-bold primary-text-clr title pt-5"> Social Activities</h2>
+            <div className="pageContainer content">
                 {
                     eventsList.map((event, idx) => {
                         return <Cards title={event.title} desc={event.desc} img={event.img} link={event.link} key={'e' + idx} ></Cards>

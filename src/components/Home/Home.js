@@ -10,7 +10,7 @@ import aboutImg2 from '../../images/aboutImg2.jpg'
 const Home = () => {
     return (
         <>
-            <Container fluid className="px-0">
+            <Container fluid className="px-0" calssName="page">
                 <Carousel>
                     <Carousel.Item>
                         <img src={imgSlider1} className="carousel-img" alt="carousel-img" />
@@ -25,7 +25,7 @@ const Home = () => {
 
                 <div
                     id="hero"
-                    className="container-fluid text-center px-0 notranslate aos-init aos-animate"
+                    className="container-fluid text-center px-0 notranslate aos-init aos-animate page"
                     data-aos="fade-up"
                     data-aos-offset={-20}
                 >
