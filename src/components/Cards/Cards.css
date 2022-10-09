@@ -82,7 +82,7 @@ figure figcaption h3 {
 figure figcaption p {
   font-size: 14px;
   line-height: 1.75;
-  overflow-y: scroll;
+  overflow-y: auto;
   height: 200px;
 }
 
