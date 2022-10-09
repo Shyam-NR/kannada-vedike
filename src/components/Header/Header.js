@@ -11,7 +11,7 @@ const Header = () => {
         window.addEventListener("scroll", (e) => {
             var navbar = document.getElementsByTagName("nav")[0];
             var scrollTop = (window.pageYOffset !== undefined) ? window.pageYOffset : (document.documentElement || document.body.parentNode || document.body).scrollTop;
-            if (scrollTop >= 40) {
+            if (scrollTop >= 50) {
                 navbar.classList.add("scroll");
             } else {
                 navbar.classList.remove("scroll");
