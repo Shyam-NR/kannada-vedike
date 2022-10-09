@@ -2,6 +2,7 @@ import React from 'react'
 import './Social.css'
 import { Container } from 'react-bootstrap'
 import Cards from '../Cards/Cards'
+import Metadata from '../MetaData/MetaData'
 import socialImage1 from '../../images/social/1.jpg'
 import socialImage2 from '../../images/social/2.jpg'
 import socialImage3 from '../../images/social/3.jpg'
@@ -30,16 +31,19 @@ const eventsList =
 
 const Social = () => {
     return (
-        <div className="page">
-            <h2 className="text-center font-weight-bold primary-text-clr title pt-5"> Social Activities</h2>
-            <div className="pageContainer content">
-                {
-                    eventsList.map((event, idx) => {
-                        return <Cards title={event.title} desc={event.desc} img={event.img} link={event.link} key={'e' + idx} ></Cards>
-                    })
-                }
+        <>
+            <Metadata title="Social Activities | Kannada Vedike" />
+            <div className="page">
+                <h2 className="text-center font-weight-bold primary-text-clr title pt-5"> Social Activities</h2>
+                <div className="pageContainer content">
+                    {
+                        eventsList.map((event, idx) => {
+                            return <Cards title={event.title} desc={event.desc} img={event.img} link={event.link} key={'e' + idx} ></Cards>
+                        })
+                    }
+                </div>
             </div>
-        </div>
+        </>
     )
 }
 

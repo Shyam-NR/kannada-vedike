@@ -21,6 +21,7 @@ const Header = () => {
 
     return (
         <>
+            
             <Container fluid md={3} className="header flex px-3">
                 <div className="flex languageSection">
                     <img className="m-auto" width="20" height="20" src={langIcon} alt="" />

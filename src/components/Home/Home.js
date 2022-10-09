@@ -6,10 +6,12 @@ import imgSlider2 from '../../images/img-slider/imgSlider2.JPG'
 import imgSlider3 from '../../images/img-slider/imgSlider3.JPG'
 import aboutImg1 from '../../images/aboutImg1.jpg' 
 import aboutImg2 from '../../images/aboutImg2.jpg' 
+import Metadata from '../MetaData/MetaData'
 
 const Home = () => {
     return (
         <>
+            <Metadata title="Home | Kannada Vedike" />
             <Container fluid className="px-0" calssName="page">
                 <Carousel>
                     <Carousel.Item>

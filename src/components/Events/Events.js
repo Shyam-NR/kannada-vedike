@@ -2,6 +2,7 @@ import React from 'react'
 import './Events.css'
 import { Container } from 'react-bootstrap'
 import Cards from '../Cards/Cards'
+import Metadata from '../MetaData/MetaData'
 import eventImage1 from '../../images/events/1.jpg'
 import eventImage2 from '../../images/events/2.jpg'
 import eventImage3 from '../../images/events/3.jpg'
@@ -37,16 +38,19 @@ const eventsList =
 
 const Events = () => {
   return (
-    <div className="page">
-      <h2 className="text-center font-weight-bold primary-text-clr title pt-5"> Events</h2>
-      <div className="pageContainer content">
-        {
-          eventsList.map((event, idx) => {
-            return <Cards title={event.title} desc={event.desc} img={event.img} link={event.link} key={'e' + idx} ></Cards>
-          })
-        }
+    <>
+      <Metadata title="Events | Kannada Vedike" />
+      <div className="page">
+        <h2 className="text-center font-weight-bold primary-text-clr title pt-5"> Events</h2>
+        <div className="pageContainer content">
+          {
+            eventsList.map((event, idx) => {
+              return <Cards title={event.title} desc={event.desc} img={event.img} link={event.link} key={'e' + idx} ></Cards>
+            })
+          }
+        </div>
       </div>
-    </div>
+    </>
   )
 }
 
