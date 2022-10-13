@@ -14,25 +14,25 @@ const eventsList =
       "title": "Parva",
       "img": eventImage1,
       "desc": "Parva is the flagship event organised by kannada Vedike on the occasion of kannada rajyotsava. It is true bliss for the eye to witness this spectacular colorful event that include ___. A grand program is hosted in SJA with a prominent figure with remarkable contribution to the society in his/her field as chief guest. Quizzes, essay competitions, drawings, rangoli competition and many more activities are held a week before the event and winners are awarded with prizes on the day of parva celebration.",
-      "link": "/events/parva"
+      "link": "#"
     },
     {
       "title": "Ethnic Day",
       "img": eventImage2,
       "desc": "To showcase the different cultures of students hailimg from various part of the nation. This event events provides a platform to uphold the principle of unity in diversity",
-      "link": "/events/ethnicDay"
+      "link": "#"
     },
     {
       "title": "Bharat Darshan",
       "img": eventImage3,
       "desc": "Bharat Darshan is an iconic competition conducted by DDFC NITK. Students participate in this cultural Marvel representing their homeland art, fests, dressings and culture proudly infront of the whole student community. This event brings appreciation for diverse culture of India.",
-      "link": "/events/bharathDarshan"
+      "link": "#"
     },
     {
       "title": "Hudugata Hudukata",
       "img": eventImage4,
       "desc": "The first major event conducted by kannada Vedike exclusively for 1st year students of b.tech as well as m.tech. As name suggests hudugata hudukata involves freshers forming their groups and searching for clues hidden at various places inside nitk campus. This event enables freshers to group together with new people and discover places by solve challenging and fun riddles",
-      "link": "/event/hudugataHudukata"
+      "link": "#"
     }
   ];
 

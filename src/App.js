@@ -10,6 +10,7 @@ import Social from './components/Social/Social';
 function App() {
 
   return (
+    
     <BrowserRouter>
       <Header />
       <Routes>
