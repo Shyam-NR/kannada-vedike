@@ -11,7 +11,7 @@ function App() {
 
   return (
     
-    <BrowserRouter>
+    <BrowserRouter basename='/kannada-vedike'>
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
