@@ -58,29 +58,29 @@ const Footer = () => {
                                     <Link to="/#about">About Us</Link>
                                 </li>
                                 <li>
-                                    <Link to="/events">Events</Link>
+                                    <Link to="/#events">Events</Link>
                                 </li>
                                 <li>
-                                    <Link to="/social">Social Activities</Link>
+                                    <Link to="/#social">Social Activities</Link>
                                 </li>
                                 <li>
-                                    <Link to="/alumni">Alumni</Link>
+                                    <Link to="/#alumni">Alumni</Link>
                                 </li>
                             </ul>
                         </div>
                         <div className="footer-col">
                             <h4>follow us</h4>
                             <div className="social-links">
-                                <a href="https://m.facebook.com/kannadavedikenitk/" target="_blank">
+                                <a href="https://m.facebook.com/kannadavedikenitk/" target="_blank" rel="noreferrer">
                                     <img src={facebookIcon} alt="" height={40} width={40} />
                                 </a>
                                 <a
                                     href="https://www.instagram.com/kannadavedike_nitk/"
-                                    target="_blank"
+                                    target="_blank" rel="noreferrer"
                                 >
                                     <img src={instaIcon} alt="" height={40} width={40} />
                                 </a>
-                                <a href="https://twitter.com/kv_nitk" target="_blank">
+                                <a href="https://twitter.com/kv_nitk" target="_blank" rel="noreferrer">
                                     <img src={twitterIcon} alt="" height={40} width={40} />
                                 </a>
                             </div>

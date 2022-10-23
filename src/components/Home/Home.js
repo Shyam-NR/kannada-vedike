@@ -7,6 +7,8 @@ import imgSlider3 from '../../images/img-slider/imgSlider3.JPG'
 import aboutImg1 from '../../images/aboutImg1.jpg' 
 import aboutImg2 from '../../images/aboutImg2.jpg' 
 import Metadata from '../MetaData/MetaData'
+import Events from '../Events/Events'
+import Social from '../Social/Social'
 
 const Home = () => {
     return (
@@ -85,7 +87,9 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-
+            <Events />
+            <Social />
+            {/* <Team /> */}
         </>
     )
 }
