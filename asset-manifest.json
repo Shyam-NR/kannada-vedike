@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/kannada-vedike/static/css/main.ea0a6172.css",
-    "main.js": "/kannada-vedike/static/js/main.dc867ac3.js",
+    "main.js": "/kannada-vedike/static/js/main.d6c6cd3d.js",
     "static/media/logo.jpg": "/kannada-vedike/static/media/logo.68056d2dc00b72478986.jpg",
     "static/media/imgSlider1.JPG": "/kannada-vedike/static/media/imgSlider1.bc7cf7434451b56a4622.JPG",
     "static/media/4.jpg": "/kannada-vedike/static/media/4.6776d6d16724e0239b92.jpg",
@@ -18,10 +18,10 @@
     "static/media/twitter.svg": "/kannada-vedike/static/media/twitter.ca6dab938465408e461395a6db99ef70.svg",
     "static/media/facebook.svg": "/kannada-vedike/static/media/facebook.4b266d41aedcba79b84b62c43d2f6527.svg",
     "main.ea0a6172.css.map": "/kannada-vedike/static/css/main.ea0a6172.css.map",
-    "main.dc867ac3.js.map": "/kannada-vedike/static/js/main.dc867ac3.js.map"
+    "main.d6c6cd3d.js.map": "/kannada-vedike/static/js/main.d6c6cd3d.js.map"
   },
   "entrypoints": [
     "static/css/main.ea0a6172.css",
-    "static/js/main.dc867ac3.js"
+    "static/js/main.d6c6cd3d.js"
   ]
 }
